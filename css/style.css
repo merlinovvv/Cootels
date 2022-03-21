@@ -1,0 +1,556 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+ul, li{
+    color: #192252;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.menu h1{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    color: #192252;
+    margin-right: 343px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    padding: 30px;
+    padding-top: 46px;
+    padding-bottom: 35px;
+}
+.menu{
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+.header-top{
+    display: flex;
+    width: auto;
+}
+.li_text{
+    margin-right: 32px;
+}
+.get_start{
+    margin-left: 308px;
+    background-color: #0E1734;
+    border-radius: 4px;
+    padding: 14px 16px;
+    width: 121px;
+    height: 47px;
+}
+button{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.hero{
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+.hero-text{
+    max-width: 587px;
+}
+.first h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #192252;
+    
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+}
+.second{
+    max-width: 485px;
+}
+.second p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #848FAC;
+    margin-top: 24px;
+}
+.hero-text button{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.reservation{
+    background-color: #0E1734;
+    border-radius: 4px;
+    padding: 14px 16px;
+    width: 156px;
+    height: 51px;
+    margin-top: 32px;
+}
+.hero-img{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 96px;
+}
+.hero-img img{
+    width: 180px;
+    height: 588px;
+    margin-left: 24px;
+}
+.hero-img .img2{
+    margin-top: 85px;
+}
+.about_us{
+    display: flex;
+    padding-bottom: 80px;
+}
+.about_us-img{
+    margin-top: 80px;
+    margin-right: 126px;
+}
+.about_us-text{
+    width: 690px;
+    margin-top: 185px;
+}
+.text-h1 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #192252;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+}
+.about_us-text .text-p{
+    width: 584px;
+}
+.text-p p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #848FAC;
+    margin-top: 24px;
+}
+.about_us-text button{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.learn_more{
+    background-color: #0E1734;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 151px;
+    height: 51px;
+    margin-top: 32px;
+}
+.benefit{
+    padding-top: 80px;
+}
+.benefit_first{
+    display: flex;
+    align-items: center;
+}
+.benefit_first h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #192252;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+}
+.benefit_first p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #848FAC;
+    margin-top: 24px;
+}
+.first_text{
+    width: 584px;
+    margin-right: 126px;
+}
+.benefit_second{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 80px;
+}
+.benefit_second h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #192252;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+}
+.benefit_second p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #848FAC;
+    padding-top: 24px;
+}
+.second_text{
+    width: 584px;
+    padding-left: 126px;
+}
+.reserv{
+    padding-top: 80px;
+    
+}
+.reserv_text{
+    width: 588px;
+    text-align: center;
+    margin-left: 306px;
+}
+.reserv_text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #192252;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+    padding-bottom: 24px;
+}
+.reserv_text p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #848FAC;
+    
+}
+.reserv_text button{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.explore_more{
+    background-color: #0E1734;
+    border-radius: 4px;
+    padding: 14px 16px;
+    width: 165px;
+    height: 51px;
+    margin-top: 32px;
+    margin-bottom: 88px;
+}
+.reserv_text2{
+    display: flex;
+}
+.reserv_text2 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    line-height: 1.5;
+    padding-bottom: 16px;
+}
+.reserv_text2 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #848FAC;
+    padding-bottom: 32px;
+}
+.reserv_text2 img{
+    padding-bottom: 32px;
+}
+.img_1, .img_2, .img_3{
+    width: 384px;
+}
+.img_1, .img_2{
+    margin-right: 24px;
+}
+.learn_more2{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #424F7B;
+    padding-right: 13.67px;
+}
+.learnmore{
+    display: flex;
+    align-items: center;
+}
+.reserv_text2{
+    margin-bottom: 80px;
+}
+.room{
+    display: flex;
+    align-items: center;
+    height: 596px;
+}
+.text_room{
+    width: 407px;
+    margin-right: 207px;
+}
+.text_room h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #424F7B;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+.text_room h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #192252;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+    padding-bottom: 24px;
+}
+.text_room p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #848FAC;
+    padding-bottom: 32px;
+    width: 384px;
+}
+.contact_us{
+    background-color: #0E1734;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 148px;
+    height: 51px;
+}
+.room_but{
+    display: flex;
+    align-items: center;
+}
+.room_but a{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #0E1734;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+.but{
+    padding-right: 24px;
+}
+.spoiler__item{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.122);
+    padding: 36px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    width: 588px;
+}
+.spoiler__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #424F7B;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+    position: relative;
+    cursor: pointer;
+}
+.spoiler__title::before, .spoiler__title::after{
+    content: "";
+    width: 14px;
+    height: 4px;
+    background-color: #192252;
+    position: absolute;
+    top: 17px;
+    border-radius: 4px;
+    transition: all 0.3s ease 0s;
+    padding-right: 22px;
+    margin-left: 480px;
+}
+.spoiler__title::before{
+    transform: rotate(45deg);
+    left: 5px;
+}
+.spoiler__title::after{
+    transform: rotate(-45deg);
+    left: 19px;
+}
+.spoiler__title.active::before, .spoiler__title.active::after{
+    background-color: #848FAC;
+}
+.spoiler__title.active::before{
+    transform: rotate(-45deg);
+}
+.spoiler__title.active::after{
+    transform: rotate(45deg);
+}
+.spoiler__text{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #848FAC;
+    display: none;
+    padding-top: 24px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 62px;
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #192252;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+}
+.image-slider__image, .image-slider__text, .image-slider__profile{
+    text-align: center;
+    min-width: 0;
+}
+.image-slider__image{
+    padding-bottom: 44px;
+}
+.image-slider__text{
+    padding-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #848FAC;
+    font-weight: 400;
+    line-height: 150%;
+}
+.image-slider__profile{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #192252;
+}
+.swiper{
+    width: 794px;
+}
+.image-slider{
+    height: 360px;
+}
+.image-slider .swiper-pagination{
+    bottom: 0;
+}
+.image-slider .swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    background-color: #FAB047;
+}
+.footer{
+    margin-top: 80px;
+    background-color: #0B265A;
+    height: 444px;
+    padding: 120px;
+}
+.end{
+    display: flex;
+}
+.first-column__end h1{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.first-column__end p{
+    width: 186px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #D9DBDE;
+    padding-top: 13px;
+    padding-bottom: 36px;
+    line-height: 28px;
+}
+.sites{
+    display: flex;
+    align-items: center;
+}
+.inst{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.first-column__end{
+    padding-right: 399px;
+}
+.rooms_text h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #FFF;
+    letter-spacing: 0.01em;
+    padding-bottom: 24px;
+    
+}
+.rooms_text a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D9DBDE; 
+}
+.rooms_text p{
+    padding-bottom: 24px;
+}
+.rooms__end{
+    padding-right: 100px;
+}
+.reservation-text h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #FFF;
+    letter-spacing: 0.01em;
+    padding-bottom: 24px;
+    
+}
+.reservation-text a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D9DBDE; 
+}
+.reservation-text p{
+    padding-bottom: 24px;
+}
+.reservation__end{
+    padding-right: 141px;
+}
+.contact-text h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #FFF;
+    letter-spacing: 0.01em;
+    padding-bottom: 24px;
+    
+}
+.contact-text a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D9DBDE; 
+}
+.contact-text p{
+    padding-bottom: 24px;
+}
